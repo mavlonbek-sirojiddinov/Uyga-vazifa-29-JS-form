@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Form</title>
+  <link rel="stylesheet" href="disk_2.svg">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-dark ">
+
+  <div class="btn-container">
+    <button id="text-btn" class="dark-btn white-btn">
+      Day / dark
+    </button>
+  </div>
+  
+  <div class="site-container container">
+    <span class="line"></span>
+    <form class="site-form form-box" action="https://echo.htmlacademy.ru" method="post">
+      <label class="heading-text js-text" for="curret-money">pul-miqdorini-kiriting</label>
+      <div class="site-form-box">
+        <input class="site-put put-js" type="number" id="curret-money" required placeholder="pul-miqdorini-kiriting">
+        <div>
+          <select class="cele cele-js" id="valuta-select">
+            <option class="opti" value="10900" selected>USD</option>
+            <option class="opti" value="10800">EUR</option>
+            <option class="opti" value="180">RUB</option>
+          </select>
+        </div>
+        <button class="btn btn-java" type="submit" id="btn-js">Tekshirish</button>
+      </div>
+    </form>
+    <h1 class="h1text message"></h1>
+  </div>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

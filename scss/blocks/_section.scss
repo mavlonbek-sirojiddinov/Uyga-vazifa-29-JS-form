@@ -1,0 +1,186 @@
+
+body.active {
+  background: #272822;
+}
+
+body.active .form-box {
+  box-shadow: 0 8px 15px rgb(0, 0, 0);
+}
+
+body.active .white-btn {
+  background: #fff;
+  color: #272822;
+}
+
+body.active .put-js {
+  background: #272822;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+body.active .cele-js {
+  background: #272822;
+  border: 1px solid #fff;
+  color: #757575;
+  padding-left: 8px;
+}
+
+body.active .cele-js:hover {
+  color: chartreuse;
+  background: linear-gradient(to right, green, red, yellow);
+  border: none;
+}
+
+body.active .js-text {
+  color: #fff;
+}
+
+body.active .btn-java:hover {
+  background: aqua;
+  color: blue;
+  box-shadow: 0 0 0 5px rgba(0, 255, 255, 0.618),
+              0 0 0 5px rgba(0, 255, 255, 0.618);
+  border: 2px solid aqua;
+}
+
+body.active .btn-java:active {
+  background: rgb(0, 176, 176);
+}
+
+body.active .h1text {
+  color: #fff;
+}
+
+:root {
+  --color-background: #fff;
+}
+
+.white {
+  --color-background: #272822;
+}
+
+.dark-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #272822;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.dark-btn:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.dark-btn:active {
+  transform: scale(1);
+  transition: 0.1s;
+}
+
+.line {
+  display: block;
+  height: 2px;
+  margin-top: 170px;
+  margin-bottom: 20px;
+  background: rgba(128, 128, 128, 0.573);
+  width: 800px;
+}
+
+.site-form {
+  border-radius: 2px;
+  padding: 30px 23px;
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 15px rgb(195, 195, 195);
+  transition: 0.4s;
+}
+
+.site-form-box {
+  display: flex;
+}
+
+.site-put {
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 12px 11px;
+  outline: none;
+  color: gray;
+  margin-right: 60px;
+  transition: 0.4s;
+}
+
+.heading-text {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.77);
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.btn {
+  height: 44.39px;
+  width: 110px;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid rgb(49, 142, 255);
+  color: rgb(49, 142, 255);
+  transition: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: rgb(81, 159, 255);
+  color: #fff;
+  box-shadow: 0 0 0 5px rgb(89, 202, 237),
+              0 0 0 5px rgb(89, 202, 237);
+  border: 2px solid rgb(81, 159, 255);
+}
+
+.btn:active {
+  background: rgb(73, 129, 198);
+  transition: 0s;
+  color: #fff;
+  box-shadow: 0 0 0 5px rgb(89, 202, 237),
+              0 0 0 5px rgb(89, 202, 237);
+  border: 2px solid rgb(73, 129, 198);
+}
+
+.cele {
+  height: 44.39px;
+  border-radius: 10px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  outline: none;
+  color: gray;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-right: 60px;
+  padding-left: 8px;
+}
+
+.cele:hover {
+  color: chartreuse;
+  background: linear-gradient(to right, green, red, yellow);
+}
+
+.opti {
+  background: #fff;
+  color: gray;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+  transition: 0.4s;
+}
