@@ -49,6 +49,9 @@ body.active .btn-java:active {
 
 body.active .h1text {
   color: #fff;
+  background: #272822;
+  box-shadow: 0 8px 15px rgb(0, 0, 0);
+  border-radius: 50%;
 }
 
 :root {
@@ -85,7 +88,7 @@ body.active .h1text {
 .line {
   display: block;
   height: 2px;
-  margin-top: 170px;
+  margin-top: 150px;
   margin-bottom: 20px;
   background: rgba(128, 128, 128, 0.573);
   width: 800px;
@@ -101,6 +104,7 @@ body.active .h1text {
   margin-right: auto;
   box-shadow: 0 8px 15px rgb(195, 195, 195);
   transition: 0.4s;
+  border-radius: 10px;
 }
 
 .site-form-box {
@@ -183,4 +187,10 @@ h1 {
   text-align: center;
   font-size: 60px;
   transition: 0.4s;
+  width: 680px;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgb(195, 195, 195);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
 }
